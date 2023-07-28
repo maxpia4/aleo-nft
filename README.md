@@ -1,36 +1,43 @@
-# 👩‍🎨 Paint by Text
+## 🚀 Quick Start
 
-Modify images by chatting with a generative AI model.
+Ensure you have:
 
-Try it out at [paintbytext.chat](http://paintbytext.chat)
+- [Node.js](https://nodejs.org) 16 or later installed
+- [Yarn](https://yarnpkg.com) v1 or v2 installed
 
-## How it works
+Then run the following:
 
-This app is powered by:
+### 1) Clone the repository
 
-🚀 [Replicate](https://replicate.com/?utm_source=project&utm_campaign=paintbytext), a platform for running machine learning models in the cloud.
+```bash
+git clone https://github.com/demox-labs/art-factory && cd art-factory
+```
 
-🎨 [InstructPix2Pix](https://replicate.com/timothybrooks/instruct-pix2pix?utm_source=project&utm_campaign=paintbytext), an open-source machine learning model that generates images from text.
+### 2) Install dependencies
 
-▲ [Vercel](https://vercel.com/), a platform for running web apps.
+```bash
+yarn
+```
 
-⚡️ Next.js [server-side API routes](pages/api), for talking to the Replicate API.
+### 3) Update the env
 
-👀 Next.js React components, for the browser UI.
+Replace the values in the `./.env` file
 
-🍃 [Tailwind CSS](https://tailwindcss.com/), for styles.
+### 4) Install Leo (optional if you want to change the program)
+
+Find the full instructions here: https://github.com/AleoHQ/leo
+
+### 5) Development
+
+Run a local server on localhost:3000.
+
+```bash
+yarn dev
+```
 
 
-## Development
+### 6) Build
 
-1. Install a recent version of [Node.js](https://nodejs.org/)
-1. Copy your [Replicate API token](https://replicate.com/account?utm_source=project&utm_campaign=paintbytext) and set it in your environment:
-    ```
-    echo "REPLICATE_API_TOKEN=<your-token-here>" > .env.local
-    ````
-1. Install dependencies and run the server:
-    ```
-    npm install
-    npm run dev
-    ```
-1. Open [localhost:3000](http://localhost:3000) in your browser. That's it!
+```bash
+yarn build
+```
