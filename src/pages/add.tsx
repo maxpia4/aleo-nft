@@ -96,7 +96,7 @@ const Add: NextPageWithLayout = () => {
                 Url:
                 <input
                   className="w-10/12 appearance-none rounded-lg border-2 border-gray-200 bg-transparent py-1 text-sm tracking-tighter text-gray-900 outline-none transition-all placeholder:text-gray-600 focus:border-gray-900 ltr:pr-5 ltr:pl-10 rtl:pr-10 dark:border-gray-600 dark:text-white dark:placeholder:text-gray-500 dark:focus:border-gray-500"
-                  placeholder="The relative url to your NFT ie: privacy-pride/1.json"
+                  placeholder="The relative url to your NFT ie: nft/1.json"
                   onChange={(event) => setUrl(event.currentTarget.value)}
                   value={url}
                 />
