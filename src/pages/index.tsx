@@ -47,14 +47,12 @@ export function Section({
 }
 
 const DEFAULT_IMAGES = [
-  'https://aleo-public.s3.us-west-2.amazonaws.com/testnet3/privacy-pride/1.png',
-  'https://aleo-public.s3.us-west-2.amazonaws.com/testnet3/privacy-pride/2.png',
-  'https://aleo-public.s3.us-west-2.amazonaws.com/testnet3/privacy-pride/3.png',
-  'https://aleo-public.s3.us-west-2.amazonaws.com/testnet3/privacy-pride/4.png',
-  'https://aleo-public.s3.us-west-2.amazonaws.com/testnet3/privacy-pride/5.png',
-  'https://aleo-public.s3.us-west-2.amazonaws.com/testnet3/privacy-pride/6.png',
-  'https://aleo-public.s3.us-west-2.amazonaws.com/testnet3/privacy-pride/7.png',
-  'https://aleo-public.s3.us-west-2.amazonaws.com/testnet3/privacy-pride/8.png'
+  'https://aleo-nft-maxpia.vercel.app/nft/1.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/2.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/3.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/4.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/5.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/6.png',
 ]
 
 const MintPage: NextPageWithLayout = () => {
