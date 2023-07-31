@@ -1,40 +1,40 @@
 {
-    "dna": "d811178673ace19f36a28566797651ea13aa22f4",
-    "name": "#3",
-    "image": "https://aleo-nft-maxpia.vercel.app/nft/3.png",
+    "dna": "0916024c7f9248d15cd2688a0471eec3fd145146",
+    "name": "#1",
+    "image": "https://aleo-nft-maxpia.vercel.app/nft/1.png",
     "edition": 0,
-    "date": 1688408403770,
+    "date": 1688408403761,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "Orange"
+        "value": "Blue"
       },
       {
         "trait_type": "Skin",
-        "value": "Galaxy"
+        "value": "Lines"
       },
       {
         "trait_type": "Head",
-        "value": "Dreadlock"
+        "value": "Spinner hat"
       },
       {
         "trait_type": "Clothes",
-        "value": "Terrorist"
+        "value": "Hacker Hoodie"
       },
       {
         "trait_type": "Mouth",
-        "value": "Smile"
+        "value": "Golden teeth"
       },
       {
         "trait_type": "Hands",
-        "value": "Cigar"
+        "value": "Pizza"
       },
       {
         "trait_type": "Eyes",
-        "value": "3d glasses"
+        "value": "Science goggles"
       }
     ],
-    "mintNumber": 3,
+    "mintNumber": 1,
     "collectionLink": "https://www.privacypride.com/",
     "collectionName": "Privacy Pride",
     "collectionDescription": "aleo nft maxpia, referenced art factory",
