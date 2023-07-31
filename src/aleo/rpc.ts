@@ -170,12 +170,12 @@ export async function getClaims(apiUrl: string): Promise<any[]> {
 export async function getNFTs(apiUrl: string, fetchProperties: boolean = true): Promise<{ nfts: any[], baseURI: string}> {
   const baseUri = await getBaseURI(apiUrl);
   const addNFTTransactionMetadata = await getAleoTransactionsForProgram(NFTProgramId, 'add_nft', apiUrl);
-
   let nfts: any[] = addNFTTransactionMetadata.map((txM: any) => {
     const tx = txM.transaction;
     const urlBigInts = parseStringToBigIntArray(tx.execution.transitions[0].inputs[0].value);
     const tokenEditionHash = tx.execution.transitions[0].finalize[0];
     const relativeUrl = joinBigIntsToString(urlBigInts);
+
     return {
       url: baseUri + relativeUrl,
       edition: parseInt(tx.execution.transitions[0].inputs[1].value.slice(0, -6)),
@@ -188,7 +188,7 @@ export async function getNFTs(apiUrl: string, fetchProperties: boolean = true): 
     if (!fetchProperties) {
       return nft;
     }
-    const properties = await getJSON(`https://${nft.url}`);
+    const properties = await getJSON(`${nft.url}`);
     return {
       ...nft,
       properties
