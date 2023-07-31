@@ -180,7 +180,7 @@ const Add: NextPageWithLayout = () => {
                   <a target="_blank" rel="noopener noreferrer" href={`${item.properties.image}`}><img src={`${item.properties.image}`} style={{width: '100px' }} /></a>
                 </div>
                 <div className="w-3/5">
-                  <a target="_blank" rel="noopener noreferrer" href={`https://${item.url}`}>{`https://${item.url}`}</a>
+                  <a target="_blank" rel="noopener noreferrer" href={`${item.url}`}>{`${item.url}`}</a>
                 </div>
                 <div className="w-1/5">
                   {item.edition}
