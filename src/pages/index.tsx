@@ -48,11 +48,11 @@ export function Section({
 
 const DEFAULT_IMAGES = [
   'https://aleo-nft-maxpia.vercel.app/nft/1.png',
-  'https://aleo-nft-maxpia.vercel.app/nft/2.png',
   'https://aleo-nft-maxpia.vercel.app/nft/3.png',
-  'https://aleo-nft-maxpia.vercel.app/nft/4.png',
-  'https://aleo-nft-maxpia.vercel.app/nft/5.png',
-  'https://aleo-nft-maxpia.vercel.app/nft/6.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/15.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/17.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/19.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/21.png',
 ]
 
 const MintPage: NextPageWithLayout = () => {
