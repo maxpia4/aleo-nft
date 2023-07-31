@@ -47,9 +47,17 @@ export function Section({
 }
 
 const DEFAULT_IMAGES = [
-  'https://aleo-nft-maxpia.vercel.app/nft/1.png',
-  'https://aleo-nft-maxpia.vercel.app/nft/3.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/2.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/4.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/6.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/8.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/10.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/11.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/12.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/13.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/14.png',
   'https://aleo-nft-maxpia.vercel.app/nft/15.png',
+  'https://aleo-nft-maxpia.vercel.app/nft/16.png',
   'https://aleo-nft-maxpia.vercel.app/nft/17.png',
   'https://aleo-nft-maxpia.vercel.app/nft/19.png',
   'https://aleo-nft-maxpia.vercel.app/nft/21.png',
