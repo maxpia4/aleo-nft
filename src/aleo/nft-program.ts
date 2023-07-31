@@ -1,6 +1,6 @@
-export const NFTProgramId = 'aleo_nft_maxpia_0727.aleo';
+export const NFTProgramId = 'aleo_nft_maxpia_0811.aleo';
 
-export const NFTProgram = `program aleo_nft_maxpia_0727.aleo;
+export const NFTProgram = `program aleo_nft_maxpia_0811.aleo;
 
 struct TokenId:
     data1 as u128;
@@ -50,7 +50,7 @@ function initialize_collection:
     input r0 as u128.public;
     input r1 as u128.public;
     input r2 as BaseURI.public;
-    assert.eq self.caller aleo175p3gq723sj525lkh83edj805qegcsydz8lwegaaq3pcaexqxs9s780j08;
+    assert.eq self.caller aleo1rthsgwzrdqhxefshvcfdah5t5wfm5ylkktryvgm08kd5h8yyps8s0xu9fn;
 
     finalize r0 r1 r2;
 
@@ -75,7 +75,7 @@ finalize initialize_collection:
 function add_nft:
     input r0 as TokenId.public;
     input r1 as scalar.public;
-    assert.eq self.caller aleo175p3gq723sj525lkh83edj805qegcsydz8lwegaaq3pcaexqxs9s780j08;
+    assert.eq self.caller aleo1rthsgwzrdqhxefshvcfdah5t5wfm5ylkktryvgm08kd5h8yyps8s0xu9fn;
     hash.bhp256 r0 into r2 as field;    commit.bhp256 r2 r1 into r3 as field;
     finalize r3;
 
@@ -94,7 +94,7 @@ finalize add_nft:
 function add_minter:
     input r0 as address.public;
     input r1 as u8.public;
-    assert.eq self.caller aleo175p3gq723sj525lkh83edj805qegcsydz8lwegaaq3pcaexqxs9s780j08;
+    assert.eq self.caller aleo1rthsgwzrdqhxefshvcfdah5t5wfm5ylkktryvgm08kd5h8yyps8s0xu9fn;
 
     finalize r0 r1;
 
@@ -108,7 +108,7 @@ finalize add_minter:
 
 function set_mint_status:
     input r0 as u128.public;
-    assert.eq self.caller aleo175p3gq723sj525lkh83edj805qegcsydz8lwegaaq3pcaexqxs9s780j08;
+    assert.eq self.caller aleo1rthsgwzrdqhxefshvcfdah5t5wfm5ylkktryvgm08kd5h8yyps8s0xu9fn;
 
     finalize r0;
 
@@ -121,7 +121,7 @@ finalize set_mint_status:
 
 function set_mint_block:
     input r0 as u128.public;
-    assert.eq self.caller aleo175p3gq723sj525lkh83edj805qegcsydz8lwegaaq3pcaexqxs9s780j08;
+    assert.eq self.caller aleo1rthsgwzrdqhxefshvcfdah5t5wfm5ylkktryvgm08kd5h8yyps8s0xu9fn;
 
     finalize r0;
 
@@ -134,7 +134,7 @@ finalize set_mint_block:
 
 function update_symbol:
     input r0 as u128.public;
-    assert.eq self.caller aleo175p3gq723sj525lkh83edj805qegcsydz8lwegaaq3pcaexqxs9s780j08;
+    assert.eq self.caller aleo1rthsgwzrdqhxefshvcfdah5t5wfm5ylkktryvgm08kd5h8yyps8s0xu9fn;
 
     finalize r0;
 
@@ -147,7 +147,7 @@ finalize update_symbol:
 
 function update_base_uri:
     input r0 as BaseURI.public;
-    assert.eq self.caller aleo175p3gq723sj525lkh83edj805qegcsydz8lwegaaq3pcaexqxs9s780j08;
+    assert.eq self.caller aleo1rthsgwzrdqhxefshvcfdah5t5wfm5ylkktryvgm08kd5h8yyps8s0xu9fn;
 
     finalize r0;
 
@@ -162,7 +162,7 @@ finalize update_base_uri:
 
 
 function freeze:
-    assert.eq self.caller aleo175p3gq723sj525lkh83edj805qegcsydz8lwegaaq3pcaexqxs9s780j08;
+    assert.eq self.caller aleo1rthsgwzrdqhxefshvcfdah5t5wfm5ylkktryvgm08kd5h8yyps8s0xu9fn;
 
     finalize;
 
