@@ -142,7 +142,7 @@ const MintPage: NextPageWithLayout = () => {
       />
       <div className="mx-auto max-w-md px-4 mt-12 pb-14 sm:px-6 sm:pb-20 sm:pt-12 lg:px-8 xl:px-10 2xl:px-0">
         <h2 className="mb-14 text-lg font-medium uppercase text-center tracking-wider text-gray-900 dark:text-white sm:mb-10 sm:text-2xl">
-          JOIN THE PRIDE
+          Aleo NFT Maxpia
         </h2>
         {timeToMint > 0 && (
           <div className='flex justify-center mb-6'>
@@ -169,7 +169,7 @@ const MintPage: NextPageWithLayout = () => {
         )}
         {whiteList && publicKey && !transactionId && (
           <div className='text-white text-center'>
-            <div>{whiteList.filter((elm: any) => elm.address === publicKey).length > 0 ? `You're on the list!` : `You're not on the waitlist!`}</div>
+            <div>{whiteList.filter((elm: any) => elm.address === publicKey).length > 0 ? `You're on the whitelist!` : `You're not on the whitelist!`}</div>
           </div>
         )}
       </div>
