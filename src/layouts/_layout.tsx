@@ -36,14 +36,14 @@ export function Header() {
           <HomeIcon />
         </a>
         }
-        {process.env.TWITTER && <a className="mx-2 rounded-full bg-white p-1" href={`${process.env.TWITTER}`}>
+        {/* {process.env.TWITTER && <a className="mx-2 rounded-full bg-white p-1" href={`${process.env.TWITTER}`}>
           <Twitter width="18" height="18" />
         </a>
         }
         {process.env.DISCORD && <a className="mx-2 rounded-full bg-white p-1" href={`${process.env.DISCORD}`}>
           <Discord width="18" height="18" />
         </a>
-        }
+        } */}
       </div>
       <HeaderRightArea />
     </nav>
