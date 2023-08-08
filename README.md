@@ -6,7 +6,8 @@
 
 https://aleo-nft-maxpia.vercel.app/
 
-To mint NFT, You have to be whitelist
+To mint NFT, You have to be whitelist.
+If you be whitelist, send mail to maxpialab@naver.com
 
 ### 🚀 Quick Start
 
