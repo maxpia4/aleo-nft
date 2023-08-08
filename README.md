@@ -6,6 +6,8 @@
 
 https://aleo-nft-maxpia.vercel.app/
 
+To mint NFT, You have to be whitelist
+
 ### 🚀 Quick Start
 
 Ensure you have:
