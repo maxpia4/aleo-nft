@@ -1,4 +1,12 @@
-## 🚀 Quick Start
+### 🚀 Aleo NFT Mint
+
+<img width="1420" alt="image" src="https://github.com/maxpia4/aleo-nft/assets/139723813/836d47d6-26ac-425a-99e0-b0c2e8d64dc3">
+
+### - Web site : 
+
+https://aleo-nft-maxpia.vercel.app/
+
+### 🚀 Quick Start
 
 Ensure you have:
 
@@ -10,7 +18,7 @@ Then run the following:
 ### 1) Clone the repository
 
 ```bash
-git clone https://github.com/demox-labs/art-factory && cd art-factory
+git clone https://github.com/maxpia4/aleo-nft && cd aleo-nft
 ```
 
 ### 2) Install dependencies
