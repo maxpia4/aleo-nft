@@ -10,6 +10,11 @@ To mint NFT, You have to be whitelist.
 
 If you be whitelist, send mail to maxpialab@naver.com
 
+### - Referenced from Art factory
+
+https://github.com/demox-labs/art-factory
+
+
 ### 🚀 Quick Start
 
 Ensure you have:
